@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+    <div class="main">
+      <div class="total">
+        <div class="balance">
+          <p style="color: rgba(255,255,255,.7)" class="light">My balance</p>
+          <p style="color: white;" class="bold">$921.48</p>
+        </div>
+        <img src="images/logo.svg" alt="">
+      </div>
+      <div class="chart">
+        <div class="graph">
+          <div class="header">
+            <p>Spending - Last 7 days</p>
+          </div>
+          <div class="part">
+            <div id="mon" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">mon</p>
+              </div>
+            </div>
+            <div id="tue" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">tue</p>
+              </div>
+            </div>
+            <div id="wed" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">wed</p>
+              </div>
+            </div>
+            <div id="thu" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">thu</p>
+              </div>
+            </div>
+            <div id="fri" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">fri</p>
+              </div>
+            </div>
+            <div id="sat" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">sat</p>
+              </div>
+            </div>
+            <div id="sun" class="day">
+              <div class="block"></div>
+              <div class="dayname">
+                <p class="light">sun</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="month">
+          <div class="month_balance">
+            <p class="light">Total this month</p>
+            <p class="bold">$478.33</p>
+          </div>
+
+          <div class="increase_rate">
+            <p class="bold">+2.4%</p>
+            <p class="light">from last month</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
