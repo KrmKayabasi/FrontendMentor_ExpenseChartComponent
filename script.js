@@ -13,13 +13,9 @@ fetch('./data.json')
 
             if(h > max){
                 maxday = dayname;
-                max = h;
-                
+                max = h;   
             }
-            
-            
         }
-
-document.getElementById(maxday).firstElementChild.style.background = "hsl(186, 34%, 60%)";
+    document.getElementById(maxday).firstElementChild.style.background = "hsl(186, 34%, 60%)";
 });
-console.log(maxday)
+
